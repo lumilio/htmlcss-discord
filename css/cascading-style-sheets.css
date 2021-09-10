@@ -187,8 +187,54 @@ footer{
     background-color: rgb(250, 7, 43);
 }
 
-/* debug */
+.cf1{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: lightskyblue;
+}
 
+.cf2 , .cf3 , .cf4 , .cf5 {
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+
+.cf2{
+    background-color: rgb(177, 216, 240);
+}
+
+.cf3{
+    background-color: rgb(19, 109, 165);
+}
+
+.cf4{
+    background-color: rgb(48, 76, 94);
+}
+
+.cf5{
+    background-color: rgb(85, 104, 116);
+}
+
+.up1 , .up2{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.up1{
+    background-color: mediumaquamarine;
+}
+
+.up2{
+    background-color: rgb(17, 233, 161);
+}
+
+
+
+
+
+/* debug */
 
 
 
