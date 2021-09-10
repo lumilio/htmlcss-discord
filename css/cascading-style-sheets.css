@@ -38,7 +38,7 @@ header{
 
 nav{
     margin: auto;
-    width: 70%;
+    width: 80%;
     height: 100%;
     background-color: darkblue;
 }
@@ -101,7 +101,7 @@ nav{
 }
 
 .main-txt{
-    width: 70%;
+    width: 80%;
     height: 100%;
     background-color: hotpink;
     margin: auto;
@@ -136,7 +136,7 @@ nav{
 }
 
 .main-special{
-    width: 70%;
+    width: 80%;
     height: 80%;
     background-color: khaki;
     margin: auto;
@@ -170,7 +170,7 @@ footer{
 }
 
 .footerbox{
-    width: 70%;
+    width: 80%;
     height: 100%;
     margin: auto;
     background-color: rgb(85, 9, 9);
