@@ -15,6 +15,10 @@ body{
     background-color: bisque;
 }
 
+
+/* header */
+
+
 .box1{
     height: 650px;
     width: 100%;
@@ -51,7 +55,6 @@ nav{
     height: 100%;
 }
 
-
 .hero-txt{
     background-color: chartreuse;
     top: 55%;
@@ -61,4 +64,30 @@ nav{
     width: 750px;
     height: 350px;
 
+}
+
+
+/* main */
+
+.box2 , .box3 , .box4{
+    height: 650px;
+    width: 100%;
+}
+
+.box2{
+    background-color: darkslategrey;
+}
+
+.box3{
+    background-color: deeppink;
+}
+
+.box4{
+    background-color: gold;
+}
+
+.box5{
+    height: 1390px;
+    width: 100%;
+    background-color: greenyellow;
 }
