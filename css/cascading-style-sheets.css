@@ -15,7 +15,11 @@ body{
 }
 
 
+
+
 /* header */
+
+
 
 
 .box1{
@@ -65,12 +69,56 @@ nav{
 }
 
 
+
+
 /* main */
+
+
 
 
 
 .box2{
     background-color: grey;
+}
+
+.main-txt{
+    width: 60%;
+    height: 100%;
+    background-color: hotpink;
+    margin: auto;
+}
+
+.colonna1 , .colonna2 {
+    float: left;
+}
+
+.box2 .colonna1 , .box4 .colonna1{
+    background-color: turquoise;
+    width: 60%;
+    height: 100%;
+}
+
+.box2 .colonna2 , .box4 .colonna2{
+    background-color: honeydew;
+    width: 40%;
+    height: 100%;
+}
+
+.box3 .colonna1{
+    background-color: honeydew;
+    width: 40%;
+    height: 100%;
+}
+
+.box3 .colonna2{
+    background-color: turquoise;
+    width: 60%;
+    height: 100%;
+}
+
+
+.box2 , .box3 , .box4{
+    width: 100%;
 }
 
 .box3{
@@ -83,18 +131,28 @@ nav{
 
 .box5{
     background-color: black;
+    width: 100%;
 }
+
+
 
 
 /* footer */
 
 
+
+
 footer{
-    background-color: gray;
+    background-color: teal;
+    width: 100%;
 }
 
 
+
+
 /* debug */
+
+
 
 
 
@@ -104,15 +162,16 @@ footer{
 
 .debug .box2 , .debug .box3 , .debug .box4{
     height: 650px;
-    width: 100%;
 }
 
 .debug .box5{
     height: 1390px;
-    width: 100%;
 }
 
 .debug footer{
     height: 510px;
-    width: 100%;
+}
+
+.debug .main-txt{
+
 }
