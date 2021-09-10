@@ -9,3 +9,39 @@
     clear: both;
     display: table;
 }
+
+body{
+    width: 100%;
+    background-color: bisque;
+}
+
+.box1{
+    height: 650px;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    background-color: brown;
+}
+
+nav{
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    background-color: darkblue;
+}
+
+.hero-txt{
+    background-color: chartreuse;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    width: 750px;
+    height: 350px;
+
+}
