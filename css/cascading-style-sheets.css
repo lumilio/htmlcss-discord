@@ -12,7 +12,6 @@
 
 body{
     width: 100%;
-    background-color: bisque;
 }
 
 
@@ -62,7 +61,6 @@ nav{
     transform: translate(-50% , -50%);
     position: absolute;
     width: 750px;
-    height: 350px;
 
 }
 
@@ -70,10 +68,6 @@ nav{
 /* main */
 
 
-.box2 , .box3 , .box4{
-    height: 650px;
-    width: 100%;
-}
 
 .box2{
     background-color: grey;
@@ -88,8 +82,6 @@ nav{
 }
 
 .box5{
-    height: 1390px;
-    width: 100%;
     background-color: black;
 }
 
@@ -98,7 +90,29 @@ nav{
 
 
 footer{
+    background-color: gray;
+}
+
+
+/* debug */
+
+
+
+.debug .hero-txt {
+    height: 350px;
+}
+
+.debug .box2 , .debug .box3 , .debug .box4{
+    height: 650px;
+    width: 100%;
+}
+
+.debug .box5{
+    height: 1390px;
+    width: 100%;
+}
+
+.debug footer{
     height: 510px;
     width: 100%;
-    background-color: gray;
 }
