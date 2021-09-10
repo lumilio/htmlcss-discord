@@ -168,8 +168,24 @@ footer{
     width: 100%;
 }
 
+.footerbox{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    background-color: rgb(85, 9, 9);
+}
+    
+.colonne-footer{
+    width: 100%;
+    height: 85%;
+    background-color: lightpink;
+}
 
-
+.ultimi-pulsanti{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(250, 7, 43);
+}
 
 /* debug */
 
