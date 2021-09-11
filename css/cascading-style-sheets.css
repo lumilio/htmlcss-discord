@@ -191,8 +191,12 @@ nav #button1 {
 }
 
 .box3{
-    /* background-image: url(../img/wave.svg); */
-    background-color: grey;
+    /* background-color: grey;
+    background-image: url(../img/wave.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom ; */
+    
 }
 
 
