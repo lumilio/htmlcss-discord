@@ -13,6 +13,7 @@
 body{
     width: 100%;
     margin: auto;
+    font-family: 'Catamaran', sans-serif;
 }
 
 
@@ -87,6 +88,7 @@ nav{
     border: none;
     right: 0;
     position: absolute;
+    cursor: pointer;
 }
 
 .hero-txt{
