@@ -19,7 +19,9 @@ body{
 
 
 
+
 /* header */
+
 
 
 
@@ -82,8 +84,8 @@ nav #button1 {
     right: 0;
     position: absolute;
     cursor: pointer;
+    font-family: 'Catamaran', sans-serif;
 }
-
 
 
 
@@ -92,28 +94,59 @@ nav #button1 {
 /* main */
 
 
+
+
+
 .box1{
-    height: 550px;
+    height: 530px;
     width: 100%;
-    background-color: blue;
     position: relative;
     background-image: url(../img/jumbo.png);
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top ;
     background-color: #3161e0;
 }
 
 
 .hero-txt{
-    background-color: chartreuse;
-    top: 55%;
+    background-color: #3161e0;
+    top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     position: absolute;
-    width: 750px;
-
+    width: 690px;
+    text-align: center;
+    color: white;
 }
+
+.hero-txt > h1 {
+    font-size: 50px;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+.pulsanti-main  > #button1 , .pulsanti-main > #button2 {
+    padding: 10px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+    border: none;
+    right: 0;
+    cursor: pointer;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.pulsanti-main{
+    margin-top: 25px;
+}
+
+.pulsanti-main > #button2{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
 
 .box2{
     background-color: grey;
@@ -196,7 +229,10 @@ nav #button1 {
 }
 
 
+
+
 /* footer */
+
 
 
 
