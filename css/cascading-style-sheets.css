@@ -38,25 +38,39 @@ header{
 
 nav{
     margin: auto;
-    width: 80%;
+    width: 1150px;
     height: 100%;
     background-color: darkblue;
 }
 
 .logo , .links , .apri {
     float: left;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .links{
     width: 70%;
     height: 100%;
     background-color: darksalmon;
+    justify-content: center;
 }
 
 .logo , .apri {
     background-color: darkorchid;
     width: 15%;
     height: 100%;
+}
+
+#button1 {
+    padding: 10px 17px;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 20px;
+    border: none;
+    right: 0;
+    position: absolute;
 }
 
 .hero-txt{
@@ -101,7 +115,7 @@ nav{
 }
 
 .main-txt{
-    width: 80%;
+    width: 1150px;
     height: 100%;
     background-color: hotpink;
     margin: auto;
@@ -136,7 +150,7 @@ nav{
 }
 
 .main-special{
-    width: 80%;
+    width: 1150px;
     height: 80%;
     background-color: khaki;
     margin: auto;
@@ -170,7 +184,7 @@ footer{
 }
 
 .footerbox{
-    width: 80%;
+    width: 1150px;
     height: 100%;
     margin: auto;
     background-color: rgb(85, 9, 9);
