@@ -24,15 +24,6 @@ body{
 
 
 
-.box1{
-    height: 650px;
-    width: 100%;
-    background-color: blue;
-    position: relative;
-    background-image: url(../img/jumbo.png);
-    background-size: auto 100%;
-}
-
 header{
     height: 70px;
     width: 100%;
@@ -93,6 +84,27 @@ nav #button1 {
     cursor: pointer;
 }
 
+
+
+
+
+
+/* main */
+
+
+.box1{
+    height: 550px;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+    background-image: url(../img/jumbo.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #3161e0;
+}
+
+
 .hero-txt{
     background-color: chartreuse;
     top: 55%;
@@ -102,15 +114,6 @@ nav #button1 {
     width: 750px;
 
 }
-
-
-
-
-/* main */
-
-
-
-
 
 .box2{
     background-color: grey;
