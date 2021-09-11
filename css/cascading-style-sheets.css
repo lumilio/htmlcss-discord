@@ -158,12 +158,25 @@ nav #button1 {
     background-color: grey;
 }
 
-.box2 img {
-    max-width: 90%;
+.box2 img , .box4 img {
+    max-width: 80%;
     height: auto;
     margin: auto;
     display: block;
+    padding-top: 100px;
 }
+
+.colonna2  h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    padding-bottom: 2rem;
+}
+
+.paragrafo{
+    padding: 100px;
+    margin-top: 30px;
+}
+
 
 
 
