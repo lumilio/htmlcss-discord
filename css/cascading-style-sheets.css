@@ -57,7 +57,7 @@ nav{
     line-height: 80px;
     display: inline-block;
     list-style: none;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .links  a {
@@ -98,20 +98,22 @@ nav #button1 {
 
 
 .box1{
-    height: 530px;
+    height: 465px;
     width: 100%;
     position: relative;
     background-image: url(../img/jumbo.png);
-    background-size: auto 100%;
+    background-size: 1435px auto;
     background-repeat: no-repeat;
     background-position: center top ;
-    background-color: #3161e0;
+    background-color: #265ee8
+    ;
+
 }
 
 
 .hero-txt{
-    background-color: #3161e0;
-    top: 50%;
+    background-color: #265ee8;
+    top: 56%;
     left: 50%;
     transform: translate(-50% , -50%);
     position: absolute;
@@ -148,9 +150,25 @@ nav #button1 {
 }
 
 
+
+
+
+
 .box2{
     background-color: grey;
 }
+
+.box2 img {
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+
+
+
+
 
 .box2 , .box3 , .box4{
     width: 100%;
