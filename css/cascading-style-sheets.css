@@ -154,11 +154,11 @@ nav #button1 {
 
 
 
-.box2{
-    background-color: grey;
+.box2 , .box3 , .box4{
+    width: 100%;
 }
 
-.box2 img , .box4 img {
+.box2 img , .box3 img , .box4 img {
     max-width: 80%;
     height: auto;
     margin: auto;
@@ -166,7 +166,7 @@ nav #button1 {
     padding-top: 100px;
 }
 
-.colonna2  h2 {
+.colonna2  h2 , .colonna1 h2{
     font-size: 40px;
     line-height: 1.1;
     padding-bottom: 2rem;
@@ -174,26 +174,35 @@ nav #button1 {
 
 .paragrafo{
     padding: 100px;
+    padding-bottom: 200px;
     margin-top: 30px;
 }
 
-
-
-
-
-
-
-.box2 , .box3 , .box4{
-    width: 100%;
+.colonna1 , .colonna2 {
+    float: left;
 }
 
-.box3{
-    background-color: black;
+
+
+
+
+
+.box2 .colonna1 , .box4 .colonna1 , .box3 .colonna2{
+    width: 60%;
 }
 
-.box4{
-    background-color: grey;
+.box2 .colonna2 , .box3 .colonna1 , .box4 .colonna2{
+    width: 40%;
 }
+
+
+
+
+
+
+
+
+
 
 .box5{
     background-color: black;
@@ -206,34 +215,6 @@ nav #button1 {
     height: 100%;
     background-color: hotpink;
     margin: auto;
-}
-
-.colonna1 , .colonna2 {
-    float: left;
-}
-
-.box2 .colonna1 , .box4 .colonna1{
-    background-color: turquoise;
-    width: 60%;
-    height: 100%;
-}
-
-.box2 .colonna2 , .box4 .colonna2{
-    background-color: rgb(38, 138, 38);
-    width: 40%;
-    height: 100%;
-}
-
-.box3 .colonna1{
-    background-color: rgb(52, 158, 52);
-    width: 40%;
-    height: 100%;
-}
-
-.box3 .colonna2{
-    background-color: turquoise;
-    width: 60%;
-    height: 100%;
 }
 
 .main-special{
@@ -344,7 +325,7 @@ footer{
 
 
 
-.debug .hero-txt {
+/* .debug .hero-txt {
     height: 350px;
 }
 
@@ -352,11 +333,46 @@ footer{
     height: 650px;
 }
 
+.debug .box2{
+    background-color: grey;
+}
+
+.debug .box3{
+    background-color: black;
+}
+
+.debug .box4{
+    background-color: grey;
+}
+
+.debug .box2 .colonna1 , .debug .box4 .colonna1{
+    background-color: turquoise;
+    height: 100%;
+}
+
+.debug .box2 .colonna2 , .debug .box4 .colonna2{
+    background-color: rgb(38, 138, 38);
+    height: 100%;
+}
+
+.debug .box3 .colonna1{
+    background-color: rgb(52, 158, 52);
+    height: 100%;
+}
+
+.debug .box3 .colonna2{
+    background-color: turquoise;
+    height: 100%;
+}
+
+*/
+
+
 .debug .box5{
     height: 1390px;
 }
 
 .debug footer{
     height: 510px;
-}
+} 
 
