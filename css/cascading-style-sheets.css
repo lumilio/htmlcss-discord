@@ -190,6 +190,10 @@ nav #button1 {
     width: 40%;
 }
 
+
+
+
+
 .box3{
     background-color: #f6f6f6;
     /* background-color: grey;
@@ -203,27 +207,22 @@ nav #button1 {
 
 
 
-
-
-
-
 .box5{
     background-color: #f6f6f6;
     width: 100%;
     position: relative;
+    text-align: center;
 }
 
 .main-txt{
     width: 1150px;
     height: 100%;
-    background-color: hotpink;
     margin: auto;
 }
 
 .main-special{
     width: 1150px;
-    height: 80%;
-    background-color: khaki;
+/*     height: 80%; <----- aggiungere padding per distanziare*/
     margin: auto;
     top: 50%;
     left: 50%;
@@ -233,13 +232,13 @@ nav #button1 {
 
 .special1 , .special3{
     width: 100%;
-    height: 20%;
+/*     height: 20%; */
     background-color: lightcoral;
 }
 
 .special2{
     width: 100%;
-    height: 60%;
+/*     height: 60%; */
     background-color: rgb(124, 17, 17);
 }
 
@@ -263,8 +262,21 @@ nav #button1 {
     color: white;
 }
 
-/* footer */
+.box5  h2 {
+    font-size: 40px;
+}
 
+.box5 p {
+    width: 65%;
+    margin: auto;
+}
+
+.box5  h3 {
+    font-size: 30px;
+}
+
+
+/* footer */
 
 
 
@@ -388,9 +400,33 @@ footer{
 */
 
 
+
+.box5{
+    background-color: #f6f6f6;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
 .debug .box5{
     height: 1390px;
 }
+
+.special1 , .special3{
+    height: 20%;
+    background-color: lightcoral;
+}
+
+.special2{
+    height: 60%;
+    background-color: rgb(124, 17, 17);
+}
+
+
+
+
+
+
 
 .debug footer{
     height: 510px;
