@@ -36,7 +36,6 @@ nav{
     margin: auto;
     width: 1150px;
     height: 100%;
-/*     background-color: darkblue; */
 }
 
 .logo , .links , .apri {
@@ -49,7 +48,6 @@ nav{
 .links{
     width: 70%;
     height: 100%;
-/*     background-color: darksalmon; */
     justify-content: center;
 }
 
@@ -70,7 +68,6 @@ nav{
 }
 
 .logo , .apri {
-/*     background-color: darkorchid; */
     width: 15%;
     height: 100%;
 }
@@ -94,7 +91,7 @@ nav #button1 {
 /* main */
 
 
-
+/* primo box */
 
 
 .box1{
@@ -105,14 +102,10 @@ nav #button1 {
     background-size: 1435px auto;
     background-repeat: no-repeat;
     background-position: center top ;
-    background-color: #265ee8
-    ;
-
+    background-color: #265ee8;
 }
 
-
 .hero-txt{
-/*     background-color: #265ee8; */
     top: 45%;
     left: 50%;
     transform: translate(-50% , -50%);
@@ -131,7 +124,7 @@ nav #button1 {
 .pulsanti-main  > #button1 , .pulsanti-main > #button2 {
     padding: 10px 25px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     border-radius: 25px;
     border: none;
     right: 0;
@@ -150,32 +143,18 @@ nav #button1 {
 }
 
 
-
-
+/* sezioni pattern ripetuti */
 
 
 .box2 , .box3 , .box4{
     width: 100%;
 }
 
-.box2 img , .box3 img , .box4 img {
-    max-width: 80%;
-    height: auto;
+.main-txt{
+    width: 1150px;
+    height: 100%;
     margin: auto;
-    display: block;
-    padding-top: 100px;
-}
-
-.colonna2  h2 , .colonna1 h2{
-    font-size: 40px;
-    line-height: 1.1;
-    padding-bottom: 2rem;
-}
-
-.paragrafo{
-    padding: 100px;
-    padding-bottom: 200px;
-    margin-top: 30px;
+    padding-bottom: 600px;
 }
 
 .colonna1 , .colonna2 {
@@ -190,6 +169,23 @@ nav #button1 {
     width: 40%;
 }
 
+.paragrafo{
+    padding: 100px;
+    margin-top: 30px;
+}
+.colonna2  h2 , .colonna1 h2{
+    font-size: 40px;
+    line-height: 1.1;
+    padding-bottom: 2rem;
+}
+
+.box2 img , .box3 img , .box4 img {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding-top: 100px;
+}
 
 
 
@@ -207,6 +203,10 @@ nav #button1 {
 
 
 
+/* ultimo box main */
+
+
+
 .box5{
     background-color: #f6f6f6;
     width: 100%;
@@ -214,20 +214,16 @@ nav #button1 {
     text-align: center;
 }
 
-.main-txt{
-    width: 1150px;
-    height: 100%;
-    margin: auto;
-}
-
 .main-special{
     width: 1150px;
 /*     height: 80%; <----- aggiungere padding per distanziare*/
     margin: auto;
-    top: 50%;
+/*     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    position: absolute;
+    position: absolute; */
+    padding-top: 200px;
+    padding-bottom: 150px;
 }
 
 .special1 , .special3{
@@ -252,7 +248,7 @@ nav #button1 {
 .box5 #button1 {
     padding: 10px 25px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     border-radius: 25px;
     border: none;
     right: 0;
@@ -273,7 +269,17 @@ nav #button1 {
 
 .box5  h3 {
     font-size: 30px;
+    padding: 2rem;
+    background-image: url(../img/stars.svg) ;
 }
+
+
+
+
+
+
+
+
 
 
 /* footer */
@@ -400,17 +406,13 @@ footer{
 */
 
 
-
-.box5{
-    background-color: #f6f6f6;
-    width: 100%;
-    position: relative;
-    text-align: center;
-}
-
-.debug .box5{
+/* .debug .box5{
     height: 1390px;
-}
+} */
+
+
+
+
 
 .special1 , .special3{
     height: 20%;
