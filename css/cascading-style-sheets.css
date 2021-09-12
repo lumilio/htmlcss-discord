@@ -216,26 +216,17 @@ nav #button1 {
 
 .main-special{
     width: 1150px;
-/*     height: 80%; <----- aggiungere padding per distanziare*/
     margin: auto;
-/*     top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    position: absolute; */
-    padding-top: 200px;
-    padding-bottom: 150px;
+    padding-top: 300px; /* <-----da verificare per aggiunta ''wave.svg'' */
+    padding-bottom: 110px;
 }
 
-.special1 , .special3{
+.special1 , .special2 , .special3{
     width: 100%;
-/*     height: 20%; */
-    background-color: lightcoral;
 }
 
-.special2{
-    width: 100%;
-/*     height: 60%; */
-    background-color: rgb(124, 17, 17);
+.box5  h2 {
+    font-size: 40px;
 }
 
 .box5 img{
@@ -243,6 +234,22 @@ nav #button1 {
     height: auto;
     margin: auto;
     display: block;
+}
+
+.box5 p {
+    width: 65%;
+    margin: auto;
+}
+
+.box5  h3 {
+    font-size: 30px;
+    margin-top: .5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-image: url(../img/stars.svg);
+    background-size: 500px 80%;
+    background-repeat: no-repeat;
+    background-position: center top ;
 }
 
 .box5 #button1 {
@@ -257,23 +264,6 @@ nav #button1 {
     background-color: #8ea1e1;
     color: white;
 }
-
-.box5  h2 {
-    font-size: 40px;
-}
-
-.box5 p {
-    width: 65%;
-    margin: auto;
-}
-
-.box5  h3 {
-    font-size: 30px;
-    padding: 2rem;
-    background-image: url(../img/stars.svg) ;
-}
-
-
 
 
 
@@ -412,17 +402,15 @@ footer{
 
 
 
-
-
-.special1 , .special3{
+/* .debug .special1 , .debug .special3{
     height: 20%;
     background-color: lightcoral;
 }
 
-.special2{
+.debug .special2{
     height: 60%;
     background-color: rgb(124, 17, 17);
-}
+} */
 
 
 
