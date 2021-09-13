@@ -84,6 +84,10 @@ nav #button1 {
     font-family: 'Catamaran', sans-serif;
 }
 
+nav #button1:hover{
+    color: #8ea1e1;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
 
 
 
@@ -142,6 +146,16 @@ nav #button1 {
     margin-left: 20px;
 }
 
+.pulsanti-main > #button1:hover{
+    color: #8ea1e1;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.pulsanti-main > #button2:hover{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    background-color: #36393f;
+}
+
 
 /* sezioni pattern ripetuti */
 
@@ -149,6 +163,11 @@ nav #button1 {
 .box2 , .box3 , .box4{
     width: 100%;
     position: relative;
+}
+
+.box3{
+    background-color: #f6f6f6;
+    padding-bottom: 20px;
 }
 
 .main-txt{
@@ -189,18 +208,6 @@ nav #button1 {
     padding-top: 100px;
 }
 
-
-
-
-.box3{
-    background-color: #f6f6f6;
-    /* background-color: grey;
-    background-image: url(../img/wave.svg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center bottom ; */
-    
-}
 
 
 
@@ -263,10 +270,14 @@ nav #button1 {
     right: 0;
     cursor: pointer;
     font-family: 'Catamaran', sans-serif;
-    background-color: #8ea1e1;
+    background-color: #265ee8;
     color: white;
 }
 
+.box5 #button1:hover {
+    background-color: #8ea1e1;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
 
 
 
@@ -388,8 +399,13 @@ footer{
     cursor: pointer;
     font-family: 'Catamaran', sans-serif;
     float: right;
-    background-color: #8ea1e1;
+    background-color: #265ee8;
     color: white;
+}
+
+.up2 #button1:hover {
+    background-color: #8ea1e1;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
 }
 
 .ultimi-pulsanti{
@@ -406,7 +422,6 @@ footer{
     position: absolute;
     bottom: -40px;
     width:1440px;
-    positon:absolute;
     left:0;
     right:0;
     margin:0 auto;
