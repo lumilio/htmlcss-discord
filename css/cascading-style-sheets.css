@@ -155,8 +155,8 @@ nav #button1 {
     width: 1150px;
     height: 100%;
     margin: auto;
-    padding-bottom: 600px; /* <-----da verificare per aggiunta ''wave.svg'' */
-    padding-top: 100px; /* <-----da verificare per aggiunta ''wave.svg'' */
+    padding-bottom: 620px; /* <-----da verificare per aggiunta ''wave.svg'' */
+    padding-top: 10px; /* <-----da verificare per aggiunta ''wave.svg'' */
 }
 
 .colonna1 , .colonna2 {
@@ -219,8 +219,8 @@ nav #button1 {
 .main-special{
     width: 1150px;
     margin: auto;
-    padding-top: 120px; /* <-----da verificare per aggiunta ''wave.svg'' */
-    padding-bottom: 110px; /* <-----da verificare per aggiunta ''wave.svg'' */
+    padding-top: 80px; /* <-----da verificare per aggiunta ''wave.svg'' */
+    padding-bottom: 110px; 
 }
 
 .special1 , .special2 , .special3{
@@ -402,17 +402,18 @@ footer{
 /* wave section */
 
 
-#wave-2 {
-    filter: invert(0%);
+#wave-1 , #wave-2 {
     position: absolute;
-    bottom: 0;
-  }
- 
-#wave-1 path{
-    fill: #f6f6f6;
-    position: absolute;
-    bottom: 0;
+    bottom: -40px;
+    width:1440px;
+    positon:absolute;
+    left:0;
+    right:0;
+    margin:0 auto;
+    
 }
+ 
+
   
 
 
