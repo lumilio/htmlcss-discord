@@ -148,13 +148,15 @@ nav #button1 {
 
 .box2 , .box3 , .box4{
     width: 100%;
+    position: relative;
 }
 
 .main-txt{
     width: 1150px;
     height: 100%;
     margin: auto;
-    padding-bottom: 600px;
+    padding-bottom: 600px; /* <-----da verificare per aggiunta ''wave.svg'' */
+    padding-top: 100px; /* <-----da verificare per aggiunta ''wave.svg'' */
 }
 
 .colonna1 , .colonna2 {
@@ -179,7 +181,7 @@ nav #button1 {
     padding-bottom: 2rem;
 }
 
-.box2 img , .box3 img , .box4 img {
+.main-txt img {
     max-width: 80%;
     height: auto;
     margin: auto;
@@ -217,8 +219,8 @@ nav #button1 {
 .main-special{
     width: 1150px;
     margin: auto;
-    padding-top: 170px; /* <-----da verificare per aggiunta ''wave.svg'' */
-    padding-bottom: 110px;
+    padding-top: 120px; /* <-----da verificare per aggiunta ''wave.svg'' */
+    padding-bottom: 110px; /* <-----da verificare per aggiunta ''wave.svg'' */
 }
 
 .special1 , .special2 , .special3{
@@ -229,7 +231,7 @@ nav #button1 {
     font-size: 40px;
 }
 
-.box5 img{
+.main-special img{
     width: 1000px;
     height: auto;
     margin: auto;
@@ -313,6 +315,10 @@ footer{
     width: 50%;
 }
 
+.up1 > img:hover{
+    cursor: pointer;
+}
+
 #lingua img{
     max-width: 18px;
 }
@@ -390,6 +396,25 @@ footer{
     padding-top: 2rem;
     padding-bottom: 4.5rem;
 }
+
+
+
+/* wave section */
+
+
+#wave-2 {
+    filter: invert(0%);
+    position: absolute;
+    bottom: 0;
+  }
+ 
+#wave-1 path{
+    fill: #f6f6f6;
+    position: absolute;
+    bottom: 0;
+}
+  
+
 
 
 
