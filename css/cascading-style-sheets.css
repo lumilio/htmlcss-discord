@@ -99,7 +99,7 @@ nav #button1 {
     width: 100%;
     position: relative;
     background-image: url(../img/jumbo.png);
-    background-size: 1435px auto;
+    background-size: 1440px auto;
     background-repeat: no-repeat;
     background-position: center top ;
     background-color: #265ee8;
@@ -286,39 +286,88 @@ footer{
     width: 1150px;
     height: 100%;
     margin: auto;
-    background-color: rgb(85, 9, 9);
+    /* background-color: rgb(85, 9, 9); */
 }
     
 .colonne-footer{
     width: 100%;
-    height: 85%;
-    background-color: lightpink;
+    height: 85%; /* <----------------debug */
+    /* background-color: lightpink; */
 }
 
 .ultimi-pulsanti{
     width: 100%;
-    height: 15%;
+    height: 15%; /* <----------------debug */
     background-color: rgb(250, 7, 43);
 }
 
 .cf1{
     float: left;
-    width: 40%;
-    height: 100%;
-    background-color: lightskyblue;
+    width: 34%;
+    height: 100%; /* <----------------debug */
+    /* background-color: lightskyblue; */
 }
 
 .cf2 , .cf3 , .cf4 , .cf5 {
     float: left;
     width: 15%;
-    height: 100%;
+    height: 100%; /* <----------------debug */
 }
 
-.cf2{
-    background-color: rgb(177, 216, 240);
+.up1 , .up2{
+    float: left;
+    width: 50%;
+    height: 100%; /* <----------------debug */
 }
 
-.cf3{
+.lingua img{
+    max-width: 18px;
+}
+
+.icone-social img {
+    max-width: 18px;
+    margin-left: 18px;
+    filter: invert(100%);
+}
+
+#twitter{
+    margin-left: 0;
+}
+
+.cf1, .cf2, .cf3, .cf4, .cf5{
+    padding-top: 70px;
+    line-height: 2;
+}
+
+.cf1 h3 {
+    font-size: 30px;
+    width: 200px;
+    line-height: 1.1;
+    color: #8ea1e1;
+    padding-bottom: 20px;
+    
+}
+
+.lingua{
+    padding-bottom: 15px;
+    color: white;
+}
+
+
+.colonne-footer li{
+    list-style: none;
+    color: white;
+}
+
+#titolo-lista{
+    color: #8ea1e1;
+}
+
+
+
+
+
+/* .cf3{
     background-color: rgb(19, 109, 165);
 }
 
@@ -330,22 +379,16 @@ footer{
     background-color: rgb(85, 104, 116);
 }
 
-.up1 , .up2{
-    float: left;
-    width: 50%;
-    height: 100%;
-}
-
 .up1{
     background-color: mediumaquamarine;
 }
 
 .up2{
     background-color: rgb(17, 233, 161);
-}
+} */
 
 
-
+/* <----------------debug */
 
 
 /* debug */
