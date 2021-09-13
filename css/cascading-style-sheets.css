@@ -11,7 +11,7 @@
 }
 
 body{
-    width: 100%;
+    width: 1425px;
     margin: auto;
     font-family: 'Catamaran', sans-serif;
 }
@@ -82,6 +82,7 @@ nav #button1 {
     position: absolute;
     cursor: pointer;
     font-family: 'Catamaran', sans-serif;
+    transition: 0.5s;
 }
 
 nav #button1:hover{
@@ -96,6 +97,9 @@ nav #button1:hover{
 
 
 /* primo box */
+
+
+
 
 
 .box1{
@@ -134,6 +138,7 @@ nav #button1:hover{
     right: 0;
     cursor: pointer;
     font-family: 'Catamaran', sans-serif;
+    transition: 0.5s;
 }
 
 .pulsanti-main{
@@ -157,7 +162,15 @@ nav #button1:hover{
 }
 
 
+
+
+
+
 /* sezioni pattern ripetuti */
+
+
+
+
 
 
 .box2 , .box3 , .box4{
@@ -174,8 +187,8 @@ nav #button1:hover{
     width: 1150px;
     height: 100%;
     margin: auto;
-    padding-bottom: 620px; /* <-----da verificare per aggiunta ''wave.svg'' */
-    padding-top: 10px; /* <-----da verificare per aggiunta ''wave.svg'' */
+    padding-bottom: 620px; 
+    padding-top: 10px; 
 }
 
 .colonna1 , .colonna2 {
@@ -216,6 +229,9 @@ nav #button1:hover{
 
 
 
+
+
+
 .box5{
     background-color: #f6f6f6;
     width: 100%;
@@ -226,7 +242,7 @@ nav #button1:hover{
 .main-special{
     width: 1150px;
     margin: auto;
-    padding-top: 80px; /* <-----da verificare per aggiunta ''wave.svg'' */
+    padding-top: 80px; 
     padding-bottom: 110px; 
 }
 
@@ -272,6 +288,7 @@ nav #button1:hover{
     font-family: 'Catamaran', sans-serif;
     background-color: #265ee8;
     color: white;
+    transition: 0.5s;
 }
 
 .box5 #button1:hover {
@@ -283,9 +300,9 @@ nav #button1:hover{
 
 
 
-
-
 /* footer */
+
+
 
 
 
@@ -299,7 +316,6 @@ footer{
     width: 1150px;
     height: 100%;
     margin: auto;
-    /* background-color: rgb(85, 9, 9); */
 }
     
 .colonne-footer{
@@ -401,6 +417,7 @@ footer{
     float: right;
     background-color: #265ee8;
     color: white;
+    transition: 0.5s;
 }
 
 .up2 #button1:hover {
@@ -415,13 +432,16 @@ footer{
 
 
 
-/* wave section */
+
+/* wave pattern */
+
+
 
 
 #wave-1 , #wave-2 {
     position: absolute;
     bottom: -40px;
-    width:1440px;
+    width:1425px;
     left:0;
     right:0;
     margin:0 auto;
@@ -430,10 +450,6 @@ footer{
  
 
   
-
-
-
-
 
 /* debug */
 
