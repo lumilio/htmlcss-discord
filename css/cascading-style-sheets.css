@@ -406,14 +406,10 @@ footer{
     text-decoration: none;
 }
 
-#lingia select option{  /* <------------------------------------modifica menu idioma */
-    border:none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    -ms-appearance: none; 
+#lingua select {
+    background:none;
     color: white;
-    background-color: tomato;
+    border: none;
 }
 
 .up2 #button1 {
